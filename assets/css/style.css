@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
-  table tbody tr > *:first-child{
+  body {min-width: 350px;}
+  main {font-size: 0.9rem;}
+
+  /* table tbody tr > *:first-child{
     font-size: 0.8rem;
-  }
+  } */
 }
