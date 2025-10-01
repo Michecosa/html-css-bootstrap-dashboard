@@ -53,29 +53,19 @@
     <div class="container my-4">
       <h2>Nuovo libro</h2>
 
-      <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
+      <form class="row g-3" novalidate>
+        <div class="col-md-6">
+          <label for="nameAuthor" class="form-label">Nome Autore</label>
+          <input type="text" class="form-control" name="nameAuthor" id="nameAuthor" placeholder="Inserisci il nome dell&rsquo;autore" required>
         </div>
-        <div class="col-md-4">
-          <label for="validationCustom02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
+        <div class="col-md-6">
+          <label for="surnameAuthor" class="form-label">Cognome Autore</label>
+          <input type="text" class="form-control" id="surnameAuthor" id="surnameAuthor" placeholder="Inserisci il cognome dell&rsquo;autore" required>
         </div>
-        <div class="col-md-4">
-          <label for="validationCustomUsername" class="form-label">Username</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-            <div class="invalid-feedback">
-              Please choose a username.
-            </div>
+        <div class="col-md-12">
+          <label for="email" class="form-label">Titolo</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="email" placeholder="Inserisci il titolo del libro" required>
           </div>
         </div>
         <div class="col-md-6">
