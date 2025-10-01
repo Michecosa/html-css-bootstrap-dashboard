@@ -81,7 +81,12 @@
         <!-- Titolo -->
         <div class="col-12">
           <label for="bookTitle" class="form-label">Titolo</label>
-          <input type="text" class="form-control" id="bookTitle" aria-describedby="bookTitle" placeholder="Inserisci il titolo del libro" required>
+          <input  type="text" 
+                  class="form-control" 
+                  id="bookTitle" 
+                  aria-describedby="bookTitle" 
+                  placeholder="Inserisci il titolo del libro" 
+                  required>
           <div id="titleSmall" class="form-text">Titolo versione italiana</div>
         </div>
 
@@ -120,7 +125,11 @@
         <!-- ISBN -->
         <div class="col-md-4 mb-4">
           <label for="isbn" class="form-label">ISBN&num;</label>
-          <input type="text" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN&num;" required>
+          <input  type="text" 
+                  class="form-control" 
+                  id="isbn" 
+                  placeholder="Inserisci il codice ISBN&num;" 
+                  required>
           </input>
         </div>
 
@@ -131,13 +140,18 @@
           <textarea class="form-control" id="notes"  placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
         </div>
 
+        <!-- Checkbox -->
         <div class="col-12">
-          <input class="form-check-input" type="checkbox" value="" id="availableOnline">
+          <input  class="form-check-input" 
+                  type="checkbox" 
+                  value="" 
+                  id="availableOnline">
           <label class="form-check-label" for="availableOnline">
             Disponibile anche in digitale
           </label>
         </div>
 
+        <!-- Aggiungi libro -->
         <div class="col-12">
           <button class="btn btn-primary" type="submit">Aggiungi Libro</button>
         </div>
