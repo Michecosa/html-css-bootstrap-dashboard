@@ -48,7 +48,38 @@
     </nav>
   </header>
 
-  <main></main>
+  <main>
+    <div class="container my-4">
+      <h2 class="fw-normal">Help & FAQ</h2>
+      <div class="accordion my-4" id="helpAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">
+              Come aggiungere un nuovo libro?
+            </button>
+          </h2>
+          <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#helpAccordion">
+            <div class="accordion-body">
+              Clicca <strong>Aggiungi Libro</strong>, compila tutti i campi obbligatori e premi “Aggiungi Libro”.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">
+              Come verificare lo stato di un prestito?
+            </button>
+          </h2>
+          <div id="a2" class="accordion-collapse collapse" data-bs-parent="#helpAccordion">
+            <div class="accordion-body">
+              Controlla la sezione <strong>Storico Prestiti</strong> dove troverai lo stato aggiornato (in corso o restituito).
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
 
   <footer></footer>
 
